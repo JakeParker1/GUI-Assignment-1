@@ -19,11 +19,11 @@ theta2 = 45; %In degrees
 %Creating for loop
 for theta = 0:5:180
     
-    theta= deg2rad(theta);
+    theta = deg2rad(theta);
     
    %Calculate first joint position
-x1 = L1*cos(theta1);
-y1 = L1*sin(theta1);
+x1 = L1*cos(theta);
+y1 = L1*sin(theta);
 
 %Creating for loop
 for theta2 = 0:5:120
@@ -46,6 +46,9 @@ hold on;
 
 %Plot second position with an x at size 10
 plot(x2,y2,'-x','MarkerSize',10)
+
+%Turn grid lines on
+grid on
 
 end
 
