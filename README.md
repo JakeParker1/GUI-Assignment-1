@@ -10,11 +10,11 @@ close all;
 format compact
 
 %Set variable
-L1 = 1250;
+L1 = 1300;
 theta1 = 35; %In degrees
 
 %Set variable
-L2 = 1250;
+L2 = 1400;
 theta2 = 45; %In degrees
 
 %Creating for loop
@@ -70,44 +70,44 @@ plot(a,b,"MarkerSize",10);
 %Keep last plot on
 hold on;
 
-%Create a rectangle to represent the DCIC
+%Create 1st rectangle to represent the DCIC
 %Set Variables
 x = [-2000 2000 2000 -2000 -2000];
 y = [0 0 3000 3000 0];
 
-%Plotting the rectangle
-plot(x,y,"MarkerSize",10);
-
-%Create 1st rectangle to represent small waste
-%Set variables
-x = [-2000 -1300 -1300 -2000 -2000]
-y = [0 0 700 700 0];
-
-%Plotting 1st rectangle
+%Plotting the 1st rectangle
 plot(x,y,"MarkerSize",10);
 
 %Create 2nd rectangle to represent small waste
 %Set variables
-x = [1300 2000 2000 1300 1300];
+x = [-2000 -1300 -1300 -2000 -2000]
 y = [0 0 700 700 0];
 
 %Plotting 2nd rectangle
 plot(x,y,"MarkerSize",10);
 
 %Create 3rd rectangle to represent small waste
-%Set Variables
-x = [-2000 -1300 -1300 -2000 -2000];
-y = [2300 2300 3000 3000 2300];
+%Set variables
+x = [1300 2000 2000 1300 1300];
+y = [0 0 700 700 0];
 
 %Plotting 3rd rectangle
 plot(x,y,"MarkerSize",10);
 
 %Create 4th rectangle to represent small waste
+%Set Variables
+x = [-2000 -1300 -1300 -2000 -2000];
+y = [2300 2300 3000 3000 2300];
+
+%Plotting 4th rectangle
+plot(x,y,"MarkerSize",10);
+
+%Create 5th rectangle to represent small waste
 %Set variables
 x = [1300 2000 2000 1300 1300];
 y = [2300 2300 3000 3000 2300];
 
-%Plotting 4th rectangle
+%Plotting 5th rectangle
 plot(x,y,"MarkerSize",10);
 
 %Turn grid lines on
