@@ -1,6 +1,7 @@
 # GUI-Assignment-1
 operator control panel
 
+
 %Clear workspace area and command
 clc;
 clear;
@@ -46,6 +47,25 @@ hold on;
 
 %Plot second position with an x at size 10
 plot(x2,y2,'-x','MarkerSize',10)
+
+%Keep last plot on
+hold on;
+
+%Create a circle to represent DCIC
+%Set variables
+x = 0;
+y = 1500;
+r = 1000;
+
+%Operating limits of the circle 
+th = 0:pi/100:2*pi;
+
+%Working out angles of the circle
+a = r*cos(th) + x;
+b = r*sin(th) + y;
+
+%Plot the circle
+plot(a,b);
 
 %Turn grid lines on
 grid on
