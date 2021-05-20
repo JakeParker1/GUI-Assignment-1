@@ -1,7 +1,6 @@
 # GUI-Assignment-1
 operator control panel
 
-
 %Clear workspace area and command
 clc;
 clear;
@@ -116,3 +115,4 @@ grid on
 end
 
 end
+
