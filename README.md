@@ -64,7 +64,7 @@ a = r*cos(th) + x;
 b = r*sin(th) + y;
 
 %Plot the circle
-plot(a,b,"MarkerSize",10);
+plot(a,b,"LineWidth",3);
 
 %Keep last plot on
 hold on;
@@ -75,7 +75,7 @@ x = [-2000 2000 2000 -2000 -2000];
 y = [0 0 3000 3000 0];
 
 %Plotting the 1st rectangle
-plot(x,y,"MarkerSize",10);
+plot(x,y,"LineWidth",3);
 
 %Create 2nd rectangle to represent small waste
 %Set variables
@@ -83,7 +83,7 @@ x = [-2000 -1300 -1300 -2000 -2000]
 y = [0 0 700 700 0];
 
 %Plotting 2nd rectangle
-plot(x,y,"MarkerSize",10);
+plot(x,y,"LineWidth",3);
 
 %Create 3rd rectangle to represent small waste
 %Set variables
@@ -91,7 +91,7 @@ x = [1300 2000 2000 1300 1300];
 y = [0 0 700 700 0];
 
 %Plotting 3rd rectangle
-plot(x,y,"MarkerSize",10);
+plot(x,y,"LineWidth",3);
 
 %Create 4th rectangle to represent small waste
 %Set Variables
@@ -99,7 +99,7 @@ x = [-2000 -1300 -1300 -2000 -2000];
 y = [2300 2300 3000 3000 2300];
 
 %Plotting 4th rectangle
-plot(x,y,"MarkerSize",10);
+plot(x,y,"LineWidth",3);
 
 %Create 5th rectangle to represent small waste
 %Set variables
@@ -107,7 +107,7 @@ x = [1300 2000 2000 1300 1300];
 y = [2300 2300 3000 3000 2300];
 
 %Plotting 5th rectangle
-plot(x,y,"MarkerSize",10);
+plot(x,y,"LineWidth",3);
 
 %Turn grid lines on
 grid on
@@ -115,4 +115,3 @@ grid on
 end
 
 end
-
