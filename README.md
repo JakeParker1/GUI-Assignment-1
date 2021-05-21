@@ -1,7 +1,7 @@
 # GUI-Assignment-1
 operator control panel
 
-%SCARA Robot positions with large waste
+%SCARA Robot positions with small waste
 
 %Clear workspace area and command
 clc;
@@ -81,8 +81,8 @@ plot(x,y,"LineWidth",3);
 
 %Create 2nd rectangle to represent small waste
 %Set variables
-x = [-2000 -1130 -1300 -2000 -2000]
-y = [0 0 900 900 0];
+x = [-2000 -1300 -1300 -2000 -2000]
+y = [0 0 700 700 0];
 
 %Plotting 2nd rectangle
 plot(x,y,"LineWidth",3);
@@ -90,7 +90,7 @@ plot(x,y,"LineWidth",3);
 %Create 3rd rectangle to represent small waste
 %Set variables
 x = [1300 2000 2000 1300 1300];
-y = [0 0 900 900 0];
+y = [0 0 700 700 0];
 
 %Plotting 3rd rectangle
 plot(x,y,"LineWidth",3);
@@ -98,7 +98,7 @@ plot(x,y,"LineWidth",3);
 %Create 4th rectangle to represent small waste
 %Set Variables
 x = [-2000 -1300 -1300 -2000 -2000];
-y = [2100 2100 3000 3000 2100];
+y = [2300 2300 3000 3000 2300];
 
 %Plotting 4th rectangle
 plot(x,y,"LineWidth",3);
@@ -106,7 +106,7 @@ plot(x,y,"LineWidth",3);
 %Create 5th rectangle to represent small waste
 %Set variables
 x = [1300 2000 2000 1300 1300];
-y = [2100 2100 3000 3000 2100];
+y = [2300 2300 3000 3000 2300];
 
 %Plotting 5th rectangle
 plot(x,y,"LineWidth",3);
